@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="105c734c-8504-4307-a79a-f95a8e8b545c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/App/paylater-full-debug-v6.0.5-2001131732.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <workItem from="1583625429306" duration="5328000" />
       <workItem from="1583630841942" duration="9620000" />
       <workItem from="1583668185226" duration="5948000" />
-      <workItem from="1583692543811" duration="1754000" />
+      <workItem from="1583692543811" duration="2667000" />
     </task>
     <servers />
   </component>
