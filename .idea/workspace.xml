@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="105c734c-8504-4307-a79a-f95a8e8b545c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/carbonTestsuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/carbonTestsuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/frameWork/baseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frameWork/baseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/carbonTestsuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/carbonTestsuite.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YdlsOdhR59hBc9ArWCKjcH2XDi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,10 +46,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/step_definitions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test.netpay" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.48320413" />
@@ -122,12 +128,15 @@
       <workItem from="1583625429306" duration="5328000" />
       <workItem from="1583630841942" duration="9620000" />
       <workItem from="1583668185226" duration="5948000" />
-      <workItem from="1583692543811" duration="2667000" />
+      <workItem from="1583692543811" duration="3920000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="184" key="#Notifications" timestamp="1583714103654">
@@ -138,26 +147,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1230" y="284" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583670523317" />
-    <state x="1219" y="285" key="FileChooserDialogImpl" timestamp="1583532308267">
+    <state x="1219" y="285" key="FileChooserDialogImpl" timestamp="1583715742400">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1219" y="285" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583532308267" />
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1583673370752">
+    <state x="1219" y="285" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583715742400" />
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1583716437442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583673370752" />
-    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1583673370752">
+    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583716437442" />
+    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1583716437442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583673370752" />
-    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1583673370752">
+    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583716437442" />
+    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1583716437442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583673370752" />
-    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1583673370752">
+    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583716437442" />
+    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1583716437442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583673370752" />
+    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583716437442" />
     <state x="970" y="184" key="Maven.ArtifactSearchDialog" timestamp="1583481541866">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

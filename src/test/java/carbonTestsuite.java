@@ -25,7 +25,7 @@ public class carbonTestsuite {
     }
 
 
-    @BeforeTest
+    @BeforeMethod
     public void login () {
 
         home = base.initializeDriver ();
