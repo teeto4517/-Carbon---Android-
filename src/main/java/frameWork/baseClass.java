@@ -46,7 +46,7 @@ public class baseClass {
 
             driver.manage ().timeouts ().implicitlyWait ( 60, TimeUnit.SECONDS );
 
-            System.out.println("++++++++++CARBON APP LAUNCHED++++++++++++");
+
 
             return new homeScreen (driver);
 
