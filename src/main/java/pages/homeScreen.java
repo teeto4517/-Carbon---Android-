@@ -3,13 +3,17 @@ package pages;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 @SuppressWarnings("ALL")
 public class homeScreen {
 
     AndroidDriver driver;
+
 
     public homeScreen(AndroidDriver driver) {
 
@@ -20,8 +24,6 @@ public class homeScreen {
     }
 
     @FindBy(id = "com.lenddo.mobile.paylater.staging:id/tutorial_skip") MobileElement Skip;
-
-    @FindBy ( id = "com.android.packageinstaller:id/permission_allow_button") MobileElement Allow;
 
     @FindBy (id = "com.lenddo.mobile.paylater.staging:id/user_type_existing" ) MobileElement Sign_in;
 
@@ -40,9 +42,15 @@ public class homeScreen {
 
     public void setLogin (String PhoneNo, String Pin)  {
 
+//        WebDriverWait wait = new WebDriverWait (driver, 6);
         Skip.click ();
 
-        Allow.click ();
+//        wait.until( ExpectedConditions.alertIsPresent());
+
+//        Alert alert = driver.switchTo().alert();
+
+//        alert.accept();
+
 
         Sign_in.click ();
 

@@ -1,7 +1,7 @@
 package frameWork;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import pages.homeScreen;
@@ -18,24 +18,37 @@ public class baseClass {
     public homeScreen initializeDriver  ()  {
         try {
 
-            URL url = new URL ( "http://0.0.0.0:4723/wd/hub" );
+            DesiredCapabilities capabilities = new DesiredCapabilities();
 
-            DesiredCapabilities caps = DesiredCapabilities.android ();
+            capabilities.setCapability("BROWSER_NAME", "Android");
 
-            driver = new AndroidDriver ( url , caps );
+            capabilities.setCapability("deviceName", "33005ad418eb835d");
+
+            capabilities.setCapability("platformName", "Android");
+
+            capabilities.setCapability("platformVersion", "7.1.1");
+
+            capabilities.setCapability("appPackage", "com.lenddo.mobile.paylater.staging");
+
+            capabilities.setCapability("appActivity", "com.lenddo.mobile.paylater.home.activity.HomeActivity");
+
+            capabilities.setCapability("app", "src/main/resources/App/paylater-full-debug-v6.0.5-2001131732.apk");
+
+            capabilities.setCapability("unicodeKeyboard", true);
+
+            capabilities.setCapability("resetKeyboard", true);
+
+            capabilities.setCapability("autoAcceptAlerts", true);
+
+            capabilities.setCapability("autoGrantPermissions", true);
+
+            driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 
             driver.manage ().timeouts ().implicitlyWait ( 60, TimeUnit.SECONDS );
 
+            System.out.println("++++++++++CARBON APP LAUNCHED++++++++++++");
 
-            caps.setCapability ( MobileCapabilityType.PLATFORM_NAME, "Android" );
-
-            caps.setCapability ( MobileCapabilityType.DEVICE_NAME, "DT89571CA1983101099" );
-
-            caps.setCapability ( MobileCapabilityType.PLATFORM_VERSION, 9.0 );
-
-            caps.setCapability ( MobileCapabilityType.APP, "C:/Users/User/Desktop/PARKWAY/paylater-full-debug-v6.0.5-2001131732.apk" );
-
-           return new homeScreen (driver);
+            return new homeScreen (driver);
 
         }catch (Exception e) {
             System.out.println ( "Cause is : " +e.getCause () );

@@ -1,17 +1,15 @@
 import frameWork.baseClass;
-import org.openqa.selenium.WebDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.*;
-import pages.dashBoard;
-import pages.fundWallet;
-import pages.homeScreen;
-import pages.rechargeAirtime;
-import pages.filterTransactions;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import pages.*;
 
+@SuppressWarnings("rawtypes")
 public class carbonTestsuite {
 
-    WebDriver driver;
+    AndroidDriver driver;
     baseClass base;
     homeScreen home;
     dashBoard dash;
@@ -30,7 +28,7 @@ public class carbonTestsuite {
 
         home = base.initializeDriver ();
 
-        home.setLogin ( "08990001100", "1234" );
+        home.setLogin ( "08990001101", "1234" );
 
         dash = home.login ("123456");
 
@@ -73,6 +71,5 @@ public class carbonTestsuite {
 
         filter.setFilterbyMonth ();
     }
-
 
 }
